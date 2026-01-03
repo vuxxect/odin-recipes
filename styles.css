@@ -1,0 +1,96 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    background-color: rgb(240, 242, 189);
+}
+
+hr {
+    border: 5px solid green;
+    border-radius: 5px;
+    width: 95%;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    color: rgb(75, 53, 42);
+}
+p {
+    margin-left: 20px;
+}
+p, li {
+    font-weight: 400;
+    color:rgb(75, 53, 42);
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.home-link {
+    width: 15%;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin: auto auto;
+    padding: 10px 0 0 0;
+    border: 3px solid rgb(202, 120, 66);
+    border-radius: 10px;
+    background-color: rgb(178, 205, 156);
+
+}
+
+.food-img {
+    display: block;
+    margin: auto auto;
+    border: 3px solid rgb(202, 120, 66);
+    border-radius: 10px;
+}
+
+.steps li {
+    margin: 0 0 25px 0;
+}
+
+.recipes {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px;
+}
+
+.recipes a {
+    height: 270px;
+    width: 220px;
+    border: 3px solid rgb(202, 120, 66);
+    border-radius: 10px;
+    background-color: rgb(178, 205, 156);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.recipes img {
+    width: 160px;
+    height: 160px;
+    border: 2px solid rgb(202, 120, 66);
+    border-radius: 100%;
+}
+
+.recipes p {
+    margin: 0;
+    text-align: center;
+}
